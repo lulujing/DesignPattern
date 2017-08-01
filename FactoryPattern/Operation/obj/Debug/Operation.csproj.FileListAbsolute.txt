@@ -1,0 +1,5 @@
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Operation\bin\Debug\Operation.dll
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Operation\bin\Debug\Operation.pdb
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Operation\obj\Debug\Operation.csprojResolveAssemblyReference.cache
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Operation\obj\Debug\Operation.dll
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Operation\obj\Debug\Operation.pdb

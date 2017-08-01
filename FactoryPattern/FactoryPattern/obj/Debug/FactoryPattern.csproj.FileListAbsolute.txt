@@ -1,0 +1,1 @@
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\FactoryPattern\bin\Debug\FactoryPattern.exe.config

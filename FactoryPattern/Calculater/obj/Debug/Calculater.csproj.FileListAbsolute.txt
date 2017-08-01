@@ -1,0 +1,10 @@
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\bin\Debug\Calculater.exe.config
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\bin\Debug\Calculater.exe
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\bin\Debug\Calculater.pdb
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\bin\Debug\Operation.dll
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\bin\Debug\Operation.pdb
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\obj\Debug\Calculater.csprojResolveAssemblyReference.cache
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\obj\Debug\Calculater.Properties.Resources.resources
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\obj\Debug\Calculater.csproj.GenerateResource.Cache
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\obj\Debug\Calculater.exe
+c:\users\lu\documents\visual studio 2015\Projects\FactoryPattern\Calculater\obj\Debug\Calculater.pdb
