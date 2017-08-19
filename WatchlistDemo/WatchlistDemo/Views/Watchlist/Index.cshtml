@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<input type="text" value="1" id="id"/>
+<p>I going to try the button of project</p>
+<input id="wathlistbutton" type="button" value="" ></input>
+<script type="text/javascript">
+    $(function () {
+        var id = $('#id').val();
+        $.ajax({
+            type: 'post',
+            url: "http://localhost:59530/Watchlist/Index",
+            data: { 'programingId': id },
+            dataType: "json",
+            success: function (data) {
+                if (data == "true") {
+                    $('#wathlistbutton').val('stop watching') ;
+                } else {
+                    $('#wathlistbutton').val('Add watchlist')  ;
+                }
+            },
+            error: function (err) {
+                alert(err);
+            }
+        });
+
+        $('#wathlistbutton').click(function () {
+            var value_watchlist = $('#wathlistbutton').val();
+            var isActive;
+            if (value_watchlist == "stop watching") {
+                $('#wathlistbutton').val('Add watchlist');
+                isActive = false;
+            } else {
+                $('#wathlistbutton').val('stop watching');
+                isActive = true;
+            }
+            $.ajax({
+                type: 'post',
+                url: "http://localhost:59530/Watchlist/Update",
+                data: { 'programingId': id, 'isActive': isActive },
+                dataType: "json",
+                success: function (data) {
+                    alert(data);
+                },
+                error: function (err) {
+                    alert(err);
+                }
+            });
+
+        })
+
+    });
+</script>
